@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/">
+
+    <Resource name="myContextDB" auth="Container" driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://localhost:3007/userdb" username="root" password="songlie1"
+              maxActive="100" maxIdle="30" maxWait="10000"
+              removeAbandoneTimeout="60" type="javax.sql.DataSource" />
+
+</Context>
